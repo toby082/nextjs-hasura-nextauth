@@ -1,0 +1,42 @@
+{
+  "name": "next-auth-example",
+  "version": "0.0.0",
+  "private": true,
+  "description": "An example project for NextAuth.js",
+  "repository": "https://github.com/nextauthjs/next-auth-example.git",
+  "bugs": {
+    "url": "https://github.com/nextauthjs/next-auth/issues"
+  },
+  "homepage": "http://next-auth-example.now.sh",
+  "main": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Iain Collins <me@iaincollins.com>",
+  "contributors": [
+    "Balázs Orbán <info@balazsorban.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.10.5",
+    "graphql-request": "^6.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "next": "10.0.5",
+    "next-auth": "^3.2.0",
+    "next-auth-hasura-adapter": "^2.0.0",
+    "postcss": "^8.4.38",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sqlite3": "^5.0.1",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.6",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6"
+  }
+}
